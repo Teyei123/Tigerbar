@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.background{
+    background-color: gray;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+button{
+    color: black;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    text-shadow: 0 blue;
+}
+
+button:hover{
+    color: white;
+    background-color: blue;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    position: relative;
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 550;
+    text-shadow: 0.5px blue;
+    transition: 0.3s linear;
+}
+
+.links a:hover{
+    color: blue;
+}
+
+.content{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height:  80px;
+}
+
+.sidebar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu{
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+
+.social-links img, .useful-links img{
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.social-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.useful-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
